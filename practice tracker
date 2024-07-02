@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int P1,P2,P3,P4;
+cin>>P1>>P2>>P3>>P4;
+int MetTheTarget=0;
+if(P1>=10)
+MetTheTarget++;
+if(P2>=10)
+MetTheTarget++;
+if(P3>=10)
+MetTheTarget++;
+if(P4>=10)
+MetTheTarget++;
+cout<<MetTheTarget<<endl;
+return 0;
+}
